@@ -4,9 +4,7 @@ Version 1.01  October 8, 2011
 
 @ 2011 Byron Yu   byronyu@cmu.edu
 
-================
-VERSION HISTORY
-================
+## VERSION HISTORY
 
 In notes below, + denotes new feature, - denotes bug fix or removal.
 
@@ -18,10 +16,7 @@ Version 1.01 -- October 8, 2011
 Version 1.00 -- September 18, 2011
 + Added crossvalidate_fa.m
 
-
-===================
-HOW TO GET STARTED
-===================
+## HOW TO GET STARTED
 
 See example.m.
 
@@ -53,10 +48,7 @@ See example.m.
    Note that this gives low-d projections of the training data.  For
    low-d projections of test data, replace 'X' with test data.
 
-
-================================================
-WHAT DOES THE WARNING ABOUT PRIVATE NOISE MEAN?
-================================================
+## WHAT DOES THE WARNING ABOUT PRIVATE NOISE MEAN?
 
 The private noise variance (or uniqueness, in FA speak) for one or
 more data dimensions may be driven to zero.
